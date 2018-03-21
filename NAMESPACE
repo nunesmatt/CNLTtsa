@@ -1,0 +1,14 @@
+exportPattern("^[[:alpha:]]+")
+
+import(nlt)
+import(adlift)
+import(CNLTreg)
+import(fields)
+
+S3method(cnlt.spec,SG)
+S3method(cnlt.spec,DG)
+
+  importFrom("graphics", "axis", "box", "image", "par")
+  importFrom("stats", "approx", "ksmooth", "smooth.spline")
+  importFrom("utils", "setTxtProgressBar", "txtProgressBar")
+
