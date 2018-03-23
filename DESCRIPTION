@@ -8,4 +8,4 @@ Authors@R: c(person("Jean", "Hamilton", role="aut"),person("Matt","Nunes", role=
 Maintainer: Matt Nunes <m.nunes@lancaster.ac.uk>
 Description: Implementations of recent complex-valued wavelet spectral procedures for analysis of irregularly sampled signals.
 License: GPL-2
-Depends: adlift, nlt, CNLTreg, fields
+Depends: R(>= 3.1), adlift, nlt, CNLTreg, fields
