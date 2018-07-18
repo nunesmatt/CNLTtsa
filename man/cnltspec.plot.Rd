@@ -34,8 +34,8 @@ frequencies = NULL)
 A spectral quantity is plotted.
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.\cr\cr
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.\cr\cr
 Sanderson, J. (2010) Wavelet methods for time series with bivariate observations and irregular sampling grids. PhD Thesis, University of Bristol, UK.
 }
 \author{

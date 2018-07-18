@@ -40,8 +40,8 @@ A list with the following components:\cr
 \item{mscale}{A vector of scales (of length \env{Jstar}) corresponding to the rows of the spectrum \code{spec}.}
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \author{
 Jean Hamilton, Matt Nunes

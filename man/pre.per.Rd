@@ -34,7 +34,7 @@ pre.per.sample(spec1, spec2)
 	For a bivariate series where the two components have different sampling grids, the co- /quadrature periodogram values are first formed using \code{pre.per}, 
 	using a vector of \env{Tstar} equal time intervals, specified by setting \env{Tstar} and optionally \env{time.range}; they are also binned into \env{Jstar} 
 	equal artificial levels by setting \env{Jstar} and optionally \env{scale.range}.  The details are sampled using a common sampling vector with \code{pre.per.sample}, 
-	and then combined using \code{pre.per.comb}. The periodogram is then smoothed over time. See Hamilton et al (2017), section 2.3 for more details. 
+	and then combined using \code{pre.per.comb}. The periodogram is then smoothed over time. See Hamilton et al (2018), section 2.3 for more details. 
 }
 \value{
 For \code{pre.per}, a list with components:\cr
@@ -51,8 +51,8 @@ For \code{pre.per.comb}, a list with components:\cr
 
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \author{
 Jean Hamilton, Matt Nunes

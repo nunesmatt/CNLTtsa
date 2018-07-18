@@ -25,7 +25,7 @@ one scale to the next, see \code{\link{smooth.over.time}}.}
 }
 \details{
 For univariate series, the nondecimated complex lifting object can be used to form a spectral object by smoothing the squared details over scale (with \code{\link{smooth.over.scale}}), and then smoothing over time (using \code{\link{smooth.over.time}}).  Smoothing over scale is done via \code{smooth.spline}; smoothing over time is done with a kernel smoother (e.g. a "box" kernel for a moving average).
-See Hamilton et al. (2017) for more details.	
+See Hamilton et al. (2018) for more details.	
 }
 \value{
 An object of class \code{cnlt.spec} (subclasses: \code{DG}, \code{SG}, \code{univ}, \code{biv}).  \cr
@@ -47,8 +47,8 @@ For subclass \code{biv}, a list with components:\cr
 
 }
 \references{
-Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A., Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \author{
 Matt Nunes, Jean Hamilton

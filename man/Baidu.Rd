@@ -24,8 +24,8 @@ Thus the finest sampling interval is one second, but as there are seconds with n
 %%  ~~ reference to a publication or URL from which the data were obtained ~~
 %}
 \references{
-Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2017) Complex-valued wavelet lifting and applications.
-\emph{Technometrics (to appear)} DOI 10.1080/00401706.2017.1281846.
+Hamilton, J., Nunes, M. A, Knight, M. I. and Fryzlewicz, P. (2018) Complex-valued wavelet lifting and applications.
+\emph{Technometrics}, \bold{60} (1), 48-60, DOI 10.1080/00401706.2017.1281846.
 }
 \examples{
 data(Baidu)
